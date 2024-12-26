@@ -20,12 +20,12 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
   run:
     - python
     - click >=6.6
     - six >=1.10
     - cmake
-    - subprocess32
 
 test:
   imports:
